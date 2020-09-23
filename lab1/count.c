@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-char* count()
-{
+char* count() {
     short int i, SIZE = 26;
     int * counters  = (int*) malloc(SIZE * sizeof(int));
     for (i = 0; i < SIZE; i++)

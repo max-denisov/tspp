@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <count.h>
 
-int main()
-{
+int main() {
     char * fname = count();
     FILE * input = fopen(fname, "r");
     if (input == NULL) {
